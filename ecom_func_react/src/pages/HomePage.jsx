@@ -16,12 +16,12 @@ function HomePage() {
 
   useEffect(() => {
     window.scroll(0,0);
-    this.GetVisitorDetails();
+   // this.GetVisitorDetails();
   }, []);
 
-  const GetVisitorDetails =()=>{
-    axios.get(AppURL.VisitorDetails).then().catch()
-  }
+  // const GetVisitorDetails =()=>{
+  //   axios.get(AppURL.VisitorDetails).then().catch()
+  // }
 
 
   return (
